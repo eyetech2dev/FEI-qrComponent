@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+body{
+    background-color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  .card--body {
+    margin: 5em auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    background-color: white;
+    padding: 1em;
+    border-radius: 5px;
+  }
+  @media screen and (max-width: 600px){
+    .card--body {
+        width: 80%;
+    }
+  }
+
+  img {
+    border-radius: 5px;
+  }
